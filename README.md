@@ -1,27 +1,38 @@
-# Quotes
+# QUOTES , 28/1/2019
+## Author
+#### **Naima Niyigena**
+## Description
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+This project is about creating a new quote and display it. it should show the author of the quote.
+It also has the grade , you can upvote and downvote the quote. if you like it you can upvote it and viceversa.
+## BDD Specification
 
-## Development server
+| Quotes     | Upvote          | Downvote |
+| ------------- |:-------------:| -----:|
+| If you create a new quote and already publish ,it could have like a commnet| Once you like a quote you can you can click on upvote  so that the point can increase| It is an inverse to downvote. if you don't like it you can click on downvote so that the points can decreased |
+| Details of the quotes | initial upvote=0 | initial downvote=0 |
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation Requirements
+* link to visit site: 
+* cd Quotes
+* code . (if you are using visual studio)
+* atom .
+## Known Bugs
+Hope that my codes of this page is clear and understandable,
+There are no errors, by mistake if you find them please contact me for the below address.
 
-## Code scaffolding
+## Technologies Used
+ * Angular
+ * html
+ * css 
+ * typescript
+ 
+## Support and contact details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Don't hesitate to contact me if you get a confusion or any other question,suggestion etc
+* Tel:0788358969
+* email:naiglyme1@gmail.com
+### License
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* MIT License
+* Copyright (c) 2018 NAIMA NIYIGENA
