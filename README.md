@@ -13,7 +13,7 @@ It also has the grade , you can upvote and downvote the quote. if you like it yo
 | Details of the quotes | initial upvote=0 | initial downvote=0 |
 
 ## Setup/Installation Requirements
-* link to visit site: 
+* link to visit site: https://naimar1.github.io/Quotes/
 * cd Quotes
 * code . (if you are using visual studio)
 * atom .
