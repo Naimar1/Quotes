@@ -1,4 +1,5 @@
 <div class="container-fluid">
+    <h1>Here is a place to write your name and Quote</h1>
     <div class="row">
         <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
             <!-- Name  of the Form -->
@@ -15,20 +16,20 @@
             <div class="form-group">
                 <label for="imagequote">Description</label>
                 <textarea class="form-control" id="imagequote" rows="4" [(ngModel)]="newQuote.image" name="image" #description="ngModel" required></textarea>
-                <div [hidden]="imagequote.valid || imagequote.pristine" class="alert alert-danger">
+                <!-- <div [hidden]="imagequote.valid || imagequote.pristine" class="alert alert-danger">
                     <p> Description is Required</p>
                     
-                </div>
+                </div> -->
                 
             </div>
             <!-- Input for Date -->
             <div class="form-group">
                 <label for="complete">Completion</label>
                 <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required >
-                <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
+                <!-- <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
                     <p> Complete Date is Required</p>
                     
-                </div>
+                </div> -->
             </div>
             <button type="Submit" class="btn btn-danger">Add Quote</button>
         </form>
