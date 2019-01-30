@@ -4,6 +4,7 @@
     <div class="row">
                 <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
+    <h1 id="name">List of all Quotes</h1>
   <ul>
     <div  *ngFor='let quote of quotes;let i = index'>
         <li appHighlight>{{quote.name}} </li>
