@@ -1,12 +1,10 @@
 
 <div class="container">
-    
-        <h1 id="name">List of all Quotes</h1>
-    
-        <div class="row">
+        
+    <div class="row">
                 <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-        </div>
-<ul>
+    </div>
+  <ul>
     <div  *ngFor='let quote of quotes;let i = index'>
         <li appHighlight>{{quote.name}} </li>
         <button class="btn btn-primary "(click)='quoteDetails(i)'>Quotes Details</button>&nbsp;&nbsp;
@@ -17,5 +15,5 @@
         <app-quote1-details *ngIf="quote.showImagequote" [quote]='quote'(isFilled)= 'completeQuote($event,i)'></app-quote1-details>
     </div>
   
-</ul>
+  </ul>
 </div>
