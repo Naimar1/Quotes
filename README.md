@@ -9,7 +9,7 @@ It also has the grade , you can upvote and downvote the quote. if you like it yo
 
 | Quotes     | Upvote          | Downvote |
 | ------------- |:-------------:| -----:|
-| If you create a new quote and already publish ,it could have like a commnet| Once you like a quote you can you can click on upvote  so that the point  | | can increase| It is an inverse to downvote. if you don't like it you can click on downvote so that the points can decreased |
+| If you create a new quote and already publish ,it could have like a commnet| Once you like a quote you can you can click on upvote  so | | | that the point can increase.| It is an inverse to downvote. if you don't like it you can click on downvote so that the points can |      | | decreased |
 | Details of the quotes | initial upvote=0 | initial downvote=0 |
 
 ## Setup/Installation Requirements
