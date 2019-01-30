@@ -1,3 +1,21 @@
-<p>
-  quote1 works!
-</p>
+
+<div class="container">
+    
+        <h1 id="name">List of all Quotes</h1>
+    
+        <div class="row">
+                <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+        </div>
+<ul>
+    <div  *ngFor='let quote of quotes;let i = index'>
+        <li appHighlight>{{quote.name}} </li>
+        <button class="btn btn-primary "(click)='quoteDetails(i)'>Quotes Details</button>&nbsp;&nbsp;
+        {{quote.upvote}}
+        <button (click)='Upvote(i)' class="btn btn-primary btn-xs"><i class="fa fa-thumbs-o-up"></i>Upvote</button>&nbsp;&nbsp;
+        {{quote.downvote}}
+        <button (click)='downvote(i)' class="btn btn-primary btn-xs"><i class="fa fa-thumbs-o-up"></i>Downvote</button>
+        <app-quote1-details *ngIf="quote.showImagequote" [quote]='quote'(isFilled)= 'completeQuote($event,i)'></app-quote1-details>
+    </div>
+  
+</ul>
+</div>

@@ -1,0 +1,14 @@
+.container{
+    background-color: cadetblue;
+}
+
+.jumbotron h1 {
+    color: brown;
+    text-align: center;
+    font-family:monospace;
+    font-size:50px ;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
